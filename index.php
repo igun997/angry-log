@@ -6,8 +6,9 @@ include 'inc/db.php';
 //Initialize your db sqlite , Columns and table you can see on logs/db/log.db
 $log = new Log("logs/db/log.db");
 //Excute Logging
-$log->logging(); 
-$d = $log->list_blocked();
+$log->logging();
+//Block a Something
+$log->sqlinjection();
 //Vurln Section
 if(isset($_GET["id"])){
   $id = $_GET["id"];

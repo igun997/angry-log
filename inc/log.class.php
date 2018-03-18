@@ -67,7 +67,7 @@ class Log extends SQLite3
     }
   }
   //Block Some IPs
-  private function blockip($ip=[])
+  public function blockip($ip=[])
   {
     foreach ($ip as $key => $value) {
       $lines = file(".htaccess", FILE_IGNORE_NEW_LINES);
@@ -80,7 +80,7 @@ class Log extends SQLite3
     }
   }
   //White List Your IP
-  private function whiteip($ip="")
+  public function whiteip($ip="")
   {
     $ip = "Deny from ".$ip;
     $lines = file(".htaccess", FILE_IGNORE_NEW_LINES);

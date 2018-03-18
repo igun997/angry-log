@@ -1,6 +1,6 @@
 # Angry Log
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/igun997/angry-log/issues)
 
 Angry log is a mini tool for break unauthorized query_string like a SQL Injection method or like that and you not required into install additional database for logging
 

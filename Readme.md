@@ -68,7 +68,7 @@ This method to clean log on database
 // Input list on string
 $log->clean_log();
 ```
-
+[This Demo Result ](http://prntscr.com/istku3)
 ### Development
 
 Want to contribute? Great!
